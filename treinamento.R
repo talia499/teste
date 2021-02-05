@@ -44,6 +44,7 @@ somar <-
 #Aplicar a função
 somar(2,4)
 somar(8,2)
+somar(110,118)
 #Tipos de dados
 x <- 1L # inteiro
 class(x)
