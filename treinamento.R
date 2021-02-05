@@ -88,9 +88,11 @@ lista <- list(1,"galo",2i,2.61,TRUE,matrix(1:4)) # Criar uma lista
 lista # Checar a lista criada
 lista[[2]] # Acessar o segundo elemento da lista
 lista <- list(a=1,b="galo",c=2i,d=2.61,e=TRUE,f=matrix(1:4)) # Criar uma lista, com nomes dos elementos
+lista[[3]]
 
 ##Dados categóricos#####
 # Construir um fator, com opção para mander a ordem data
 x <- factor(c("sim","sim","sim","não","sim","não"),levels = c("não","sim")) 
 table(x) # Tabular os dados
 levels(x) # Verificar os níveis dos fatores
+
