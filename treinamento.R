@@ -89,6 +89,7 @@ lista # Checar a lista criada
 lista[[2]] # Acessar o segundo elemento da lista
 lista <- list(a=1,b="galo",c=2i,d=2.61,e=TRUE,f=matrix(1:4)) # Criar uma lista, com nomes dos elementos
 lista[[3]]
+lista$a
 
 ##Dados categóricos#####
 # Construir um fator, com opção para mander a ordem data
